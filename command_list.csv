@@ -1,46 +1,36 @@
-   1   cd ~/Desktop
+   1   cd Desktop/Git
    2   ls
-   3   cd Photos\ from\ Anton\'s\ Macbook
-   4   ls
-   5   cd 19.09\
-   6   ls
-   7   cd 19.09\ -\ new
-   8   ls
-   9   ls -la
-   10  cd Desktop/gi
-   11  cd Desktop/Git
-   12  history -c && rm ~/.bash_history
-   13  git 
-   14  git config --global user.name "Julia Danilchenko"
-   15  git config --global user.email "danilchenko.julia@gmail.com"
-   16  gh repo clone JuliaDanilchenko/HW_10
-   17  gh auth login
-   18  gh repo clone JuliaDanilchenko/HW_10
+   3   git 
+   4   git config --global user.name "Julia Danilchenko"
+   5   git config --global user.email "danilchenko.julia@gmail.com"
+   6   gh repo clone JuliaDanilchenko/HW_10
+   7   gh auth login
+   8   gh repo clone JuliaDanilchenko/HW_10
+   9   ls
+   10  cd HW_10
+   11  touch text_ignore.txt
+   12  ls
+   13  git status
+   14  git add .
+   15  git status
+   16  git commit
+   17  git commit -m "changed git ignore"
+   18  git status
    19  ls
-   20  cd HW_10
-   21  touch text_ignore.txt
-   22  ls
-   23  git status
-   24  git add .
-   25  git status
-   26  git commit
-   27  git commit -m "changed git ignore"
-   28  git status
-   29  ls
+   20  git add .
+   21  git status
+   22  git commit -m "
+   23  git commit -m "add new file"
+   24  git status
+   25  git checkout develop 
+   26  git status
+   27  git add .
+   28  git commit -m "add new file"
+   29  git status
    30  git add .
-   31  git status
-   32  git commit -m "
-   33  git commit -m "add new file"
-   34  git status
-   35  git checkout develop 
-   36  git status
-   37  git add .
-   38  git commit -m "add new file"
-   39  git status
-   40  git add .
-   41  git commit -m "change file"
-   42  git checkout
-   43  git checkout main
-   44  git merge develop
-   45  git log
-   46  git history 0 > command_list.csv
+   31  git commit -m "change file"
+   32  git checkout
+   33  git checkout main
+   34  git merge develop
+   35  git log
+   36  git history 0 > command_list.csv
