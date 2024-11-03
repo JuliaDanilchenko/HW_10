@@ -1,11 +1,11 @@
-   1   cd Desktop/Git
-   2   ls
-   3   git 
+   1   cd Desktop
+   2   cd Git
+   3   ls
    4   git config --global user.name "Julia Danilchenko"
    5   git config --global user.email "danilchenko.julia@gmail.com"
-   6   gh repo clone JuliaDanilchenko/HW_10
-   7   gh auth login
-   8   gh repo clone JuliaDanilchenko/HW_10
+   6   git
+   7   ls
+   8   git clone git@github.com:JuliaDanilchenko/HW_10.git
    9   ls
    10  cd HW_10
    11  touch text_ignore.txt
